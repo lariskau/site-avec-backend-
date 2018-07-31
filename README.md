@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Réalisé avec mon binome Edouard Plantevin !
 
-Things you may want to cover:
+Pour voir cette app BG en ligne : https://site-backend-lea-thp.herokuapp.com/
 
-* Ruby version
 
-* System dependencies
+<h5>Github</h5>
 
-* Configuration
+Etape 1:  
 
-* Database creation
+   > git clone https://github.com/SatanPetitCoeur/Je-me-presente.git
 
-* Database initialization
+Etape 2:
 
-* How to run the test suite
+   > cd site-en-backend
+   
+Etape 3:
 
-* Services (job queues, cache servers, search engines, etc.)
+   > rake db:migrate
+   
+Etape 4:
 
-* Deployment instructions
+   > rails serveur
+ 
+Etape 5:  
 
-* ...
+   > aller sur :  http://localhost:3000/
