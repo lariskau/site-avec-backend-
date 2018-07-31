@@ -1,0 +1,11 @@
+<h1>"Bienvenue dans la création d'utilisateurs !"</h1>
+<p>Voici le formulaire !</p>
+
+
+<%= form_tag "/users", method: "post" do %>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="input" name="name" placeholder="Nom"> </br>
+  <input type="text" name="bio" placeholder="Ta vie"> </br>
+  <input type="submit" value="Envoyer le formulaire">
+<% end %>
+<p>Merci de l'avoir complété !</p>
